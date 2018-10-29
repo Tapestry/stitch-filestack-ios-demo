@@ -41,9 +41,9 @@ import Foundation
     // MARK: - Lifecyle Functions
 
     /// Convenience initializer (for Objective-C).
-    @objc public convenience init(location: StorageLocation) {
-
-        self.init(location: location, region: nil, container: nil, path: nil, filename: nil, access: nil)
+    @objc public convenience init(location: StorageLocation, region: String, container: String, path: String) {
+        
+        self.init(location: location, region: region, container: container, path: path, filename: nil, access: nil)
     }
 
     /// Default initializer.
