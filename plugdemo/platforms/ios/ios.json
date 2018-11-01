@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"filestack\"><param name=\"ios-package\" value=\"FilePickerIO\" /><param name=\"deployment-target\" value=\"9.0\" /><preference name=\"UseSwiftLanguageVersion\" value=\"4\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-filestack": {
+      "PACKAGE_NAME": "com.dmmedia.plugdemo"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-filestack.filestack",
+      "file": "plugins/cordova-plugin-filestack/www/filestack.js",
+      "pluginId": "cordova-plugin-filestack",
+      "clobbers": [
+        "window.filepicker"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-filestack": "0.0.9"
+  }
+}

@@ -1,0 +1,1 @@
+../../../FilestackSDK/FilestackSDK/FilestackSDK.h

@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CryptoSwift (0.10.0)
+  - Filestack (1.5.2):
+    - Alamofire (= 4.7.3)
+    - FilestackSDK (= 1.2.7)
+    - SSZipArchive (= 2.1.4)
+  - FilestackSDK (1.2.7):
+    - Alamofire (~> 4.7)
+    - CryptoSwift (~> 0.10.0)
+  - SSZipArchive (2.1.4)
+
+DEPENDENCIES:
+  - Filestack (~> 1.5.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CryptoSwift
+    - Filestack
+    - FilestackSDK
+    - SSZipArchive
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CryptoSwift: 6c778d69282bed3b4e975ff97a79d074f20bb011
+  Filestack: 930b0172f8f4adf1e765adcf8a7b45c88e3bc3ae
+  FilestackSDK: c146c17687c8531edf9af0a7878e6887a326ba8d
+  SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
+
+PODFILE CHECKSUM: 08af82012ad9fe2ba1f359aaabcd862ecfac8041
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+{
+    "Foundation.framework": 1,
+    "CoreFoundation.framework": 1,
+    "QuartzCore.framework": 1,
+    "SystemConfiguration.framework": 1
+}

@@ -1,0 +1,8 @@
+{
+    "Filestack": {
+        "name": "Filestack",
+        "type": "podspec",
+        "spec": "~> 1.5.2",
+        "count": 1
+    }
+}
